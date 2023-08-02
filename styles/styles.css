@@ -2,12 +2,28 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-img {
+/* img {
     width: 20px;
+} */
+
+.email-icon {
+    width: 20px;
+}
+
+.telephone-image {
+    width: 20px;
+}
+
+.profile-picture {
+    margin-right: 250px;
 }
 
 a {
     text-decoration-line: none;
+}
+
+.category-titles {
+    padding-left: 25px;
 }
 
 .header-resume {
@@ -15,6 +31,7 @@ a {
 }
 
 .email-text {
+    margin-top: -20px;
     padding-left: 10px;
     color: black;
 }
@@ -25,12 +42,23 @@ a {
 
 .telephone-number {
     padding-left: 10px;
+    margin-top: -60px;
     color: black;
 }
 
 .linkedin-text {
     padding-left: 10px;
+    padding-top: -30px;
     color: cornflowerblue;
+}
+
+.linkedin-information {
+    margin-top: 2px;
+}
+
+.linkedin-image {
+    margin-top: 10px;
+    width: 20px;
 }
 
 .location-informations {
@@ -43,21 +71,28 @@ a {
 }
 
 .summary {
-    margin-top: 40px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    text-align: center;
 }
 
 .about-me-info {
     margin-top: -15px;
-    margin-right: 100px;
+    margin-right: 1000px;
+    margin-left: 350px;
+    margin-bottom: -90px;
     font-size: 15px;
+    text-align: center;
 }
 
 .experience {
     margin-top: 40px;
+    text-align: center;
 }
 
 .experience-list {
     margin-top: -10px;
+    list-style: none;
 }
 
 .experience-category {
@@ -79,15 +114,22 @@ a {
 
 .education {
     margin-top: 40px;
+    text-align: center;
+}
+
+.education-list {
+    margin-top: -10px;
+    list-style: none;
 }
 
 .licenses-certifications {
     margin-top: 40px;
+    text-align: center;
 }
 
 .licenses-certifications-list {
     margin-top: -10px;
-    list-style-image: url("images/university-of-cambridge.png");
+    list-style: none;
 }
 
 .certification-name {
@@ -109,11 +151,13 @@ a {
 
 .skills {
     margin-top: 40px;
+    text-align: center;
 }
 
 .skills-list {
     margin-top: -10px;
     font-weight: 500;
+    list-style: none;
 }
 
 .cambridge-certification {
