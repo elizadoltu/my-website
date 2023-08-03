@@ -127,11 +127,6 @@ a {
     text-align: center;
 }
 
-.licenses-certifications-list {
-    margin-top: -10px;
-    list-style: none;
-}
-
 .certification-name {
     font-size: 20px;
     margin-top: 35px;
@@ -160,7 +155,25 @@ a {
     list-style: none;
 }
 
+
+.licenses-certifications-list {
+    margin-top: -10px;
+    list-style: none;
+    padding-left: 0;
+    /* Remove default padding */
+}
+
 .cambridge-certification {
-    background: url("images/university-of-cambridge.png");
+    background-image: url("images/university-of-cambridge.png");
     background-repeat: no-repeat;
-} 
+    padding-left: 25px;
+    /* Adjust the padding to make room for the background image */
+}
+
+.cambridge-certification .certification-name,
+.cambridge-certification .institution-name,
+.cambridge-certification .accreditation-number,
+.cambridge-certification .verification-number {
+    /* Add some left margin to align the text properly */
+    margin-left: 10px;
+}
