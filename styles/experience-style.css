@@ -1,0 +1,53 @@
+.experience-section {
+    text-align: right;
+    margin-top: 400px; 
+}
+
+.experience-title {
+    margin-right: 150px;
+}
+
+.experience-list {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 150px;
+}
+
+.item-list {
+    margin-top: 30px;
+}
+
+.item-title {
+    font-size: 16px;
+}
+
+.item-institution {
+    font-size: 12px;
+    margin-top: -9px;
+}
+
+.item-period {
+    font-size: 9px;
+    font-weight: 300;
+    margin-top: -3px;
+}
+
+.uaic-image {
+    float: left;
+    width: 400px;
+    margin-top: -300px;
+    margin-left: 50px;
+    object-fit: cover;
+}
+
+.description-photo-uaic {
+    margin-top: -35px;
+    margin-left: 120px;
+    text-align: left;
+    font-size: 10px;
+    color: black;
+    opacity: 1;
+}
+
+
+

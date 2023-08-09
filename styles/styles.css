@@ -1,179 +1,47 @@
-body {
-    font-family: 'Montserrat', sans-serif;
+/* Reset default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a,
+mark,
+img,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-/* img {
-    width: 20px;
-} */
+/* Apply scaling for different screen sizes */
+@media screen and (max-width: 768px) {
 
-.email-icon {
-    width: 20px;
+    /* Adjust font sizes for small screens */
+    body {
+        font-size: 16px;
+    }
+
+    .introduction-title,
+    .about-me-description,
+    .item-title,
+    .item-institution,
+    .item-period,
+    .skills-subtitle,
+    .projects-links,
+    .top-button {
+        font-size: 2.5vw;
+    }
 }
 
-.telephone-image {
-    width: 20px;
-}
+@media screen and (min-width: 1200px) {
 
-.profile-picture {
-    margin-right: 250px;
-}
+    /* Adjust font sizes for larger screens */
+    body {
+        font-size: 18px;
+    }
 
-a {
-    text-decoration-line: none;
-}
-
-.category-titles {
-    padding-left: 25px;
-}
-
-.header-resume {
-    text-align: center;
-}
-
-.email-text {
-    margin-top: -20px;
-    padding-left: 10px;
-    color: black;
-}
-
-.telephone-image {
-    margin-left: 20px;
-}
-
-.telephone-number {
-    padding-left: 10px;
-    margin-top: -60px;
-    color: black;
-}
-
-.linkedin-text {
-    padding-left: 10px;
-    padding-top: -30px;
-    color: cornflowerblue;
-}
-
-.linkedin-information {
-    margin-top: 2px;
-}
-
-.linkedin-image {
-    margin-top: 10px;
-    width: 20px;
-}
-
-.location-informations {
-    margin-top: -20px;
-    font-weight: 350;
-}
-
-.email-and-telephone {
-    margin-top: 30px;
-}
-
-.summary {
-    margin-top: 100px;
-    margin-bottom: 200px;
-    text-align: center;
-}
-
-.about-me-info {
-    margin-top: -15px;
-    margin-right: 1000px;
-    margin-left: 350px;
-    margin-bottom: -90px;
-    font-size: 15px;
-    text-align: center;
-}
-
-.experience {
-    margin-top: 40px;
-    text-align: center;
-}
-
-.experience-list {
-    margin-top: -10px;
-    list-style: none;
-}
-
-.experience-category {
-    font-size: 20px;
-    margin-top: 35px;
-}
-
-.institution-name {
-    margin-top: -10px;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.period-of-time {
-    margin-top: -10px;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.education {
-    margin-top: 40px;
-    text-align: center;
-}
-
-.education-list {
-    margin-top: -10px;
-    list-style: none;
-}
-
-.licenses-certifications {
-    margin-top: 40px;
-    text-align: center;
-}
-
-.certification-name {
-    font-size: 20px;
-    margin-top: 35px;
-}
-
-.accreditation-number {
-    margin-top: -10px;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.verification-number {
-    margin-top: -10px;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.skills {
-    margin-top: 40px;
-    text-align: center;
-}
-
-.skills-list {
-    margin-top: -10px;
-    font-weight: 500;
-    list-style: none;
-}
-
-
-.licenses-certifications-list {
-    margin-top: -10px;
-    list-style: none;
-    padding-left: 0;
-    /* Remove default padding */
-}
-
-.cambridge-certification {
-    background-image: url("images/university-of-cambridge.png");
-    background-repeat: no-repeat;
-    padding-left: 25px;
-    /* Adjust the padding to make room for the background image */
-}
-
-.cambridge-certification .certification-name,
-.cambridge-certification .institution-name,
-.cambridge-certification .accreditation-number,
-.cambridge-certification .verification-number {
-    /* Add some left margin to align the text properly */
-    margin-left: 10px;
+    .main-content-website {
+        font-size: 1.25vw;
+    }
 }

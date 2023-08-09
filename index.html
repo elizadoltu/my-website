@@ -1,79 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Official Website of Eliza - Teodora Doltu"
-    />
-    <meta
-      name="keywords"
-      content="HTML, CSS, STUDENT, COMPUTER SCIENCE, PERSONAL WEBSITE"
-    />
-    <title>Eliza - Teodora Doltu</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Main Content -->
-    <div class="main-content">
-      <!-- Resume/Contacts/Header -->
-      <div class="header-resume">
-        <h1>Eliza - Teodora Doltu</h1>
-        <h3 class="location-informations">Targu Ocna, Bacau, Romania</h3>
-        <div>
-          <div class="email-and-telephone">
-            <img src="images/email-icon.png" alt="" class="email-icon" />
-            <span
-              ><a
-                href="mailto:everythingwithunknowninfo@gmail.com"
-                class="email-text"
-                >everythingwithunknowninfo@gmail.com</a
-              >
-              <span>
-                <span>
-                  <img
-                    src="images/telephone-icon.jpg"
-                    alt=""
-                    class="telephone-image" /></span
-                ><a href="tel:+40732134019" class="telephone-number"
-                  >+4032134019</a
-                ></span
-              ></span
-            >
-          </div>
-          <div class="linkedin-information">
-            <img src="images/linkedin-icon.png" alt="" class="linkedin-image" />
-            <span
-              ><a
-                href="http://linkedin.com/in/eliza-teodora-doltu-56336b24a"
-                class="linkedin-text"
-                >linkedin.com/in/eliza-teodora-doltu-56336b24a</a
-              ></span
-            >
-          </div>
-        </div>
-      </div>
-      <!-- Summary -->
-      <hr />
-      <img
-        align="right"
-        src="images/eliza.jpg"
-        alt="Profile Picture"
-        width="400"
-        height="400"
-        class="profile-picture"
+  <main class="main-content-website">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+        name="description"
+        content="Official Website of Eliza - Teodora Doltu"
       />
-      <div class="summary">
-        <h2 class="summary-title">Summary</h2>
+      <meta
+        name="keyords"
+        content="HTML, CSS, COMPUTER SCIENCE, STUDENT, PERSONAL WEBSITE, DEVELOPER, PROGRAMMER"
+      />
 
-        <p class="about-me-info">
+      <link rel="stylesheet" href="styles/header-style.css" />
+      <link rel="stylesheet" href="styles/main-style.css" />
+      <link rel="stylesheet" href="styles/education-style.css" />
+      <link rel="stylesheet" href="styles/experience-style.css" />
+      <link rel="stylesheet" href="styles/footer-style.css" />
+      <link rel="stylesheet" href="styles/body-style.css" />
+      <link rel="stylesheet" href="styles/licences-style.css" />
+      <link rel="stylesheet" href="styles/projects-style.css" />
+      <link rel="stylesheet" href="styles/skills-style.css" />
+      <link rel="stylesheet" href="styles/social-media-style.css" />
+      <link rel="stylesheet" href="styles/summary-style.css" />
+      <link rel="stylesheet" href="styles/introduction-section.css" />
+      <link rel="stylesheet" href="styles/top-button.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"
+      />
+      <title>Eliza - Teodora Doltu</title>
+    </head>
+
+    <header>
+      <nav class="navigation-bar">
+        <ul class="navigation-list">
+          <li class="navigation-bar-item-summary">
+            <a
+              href="#summary-section-id"
+              onclick="scrollToSection('summary-section-id')"
+              >About me</a
+            >
+          </li>
+          <li class="navigation-bar-item-experience">
+            <a
+              href="#experience-section-id"
+              onclick="scrollToSection('experience-section-id')"
+              >Experience</a
+            >
+          </li>
+          <li class="navigation-bar-item-education">
+            <a
+              href="#education-section-id"
+              onclick="scrollToSection('education-section-id')"
+              >Education</a
+            >
+          </li>
+          <li class="navigation-bar-item-projects">
+            <a
+              href="#projects-section-id"
+              onclick="scrollToSection('projects-section-id')"
+              >Projects</a
+            >
+          </li>
+          <li class="navigation-bar-item">Certificates</li>
+          <li class="navigation-bar-item">Skills</li>
+        </ul>
+      </nav>
+    </header>
+
+    <body>
+      <section class="introduction-section">
+        <h1 class="introduction-title">&lt;/Student. Developer/&gt;</h1>
+      </section>
+      <section class="summary-section" id="summary-section-id">
+        <h1 class="summary-title">About me</h1>
+        <aside class="aside-picture">
+          <img
+            src="images/eliza.jpg"
+            alt="Profile picture"
+            class="profile-picture"
+          />
+        </aside>
+        <p class="about-me-description">
           Hello everyone! My name is Eliza - Teodora Doltu and currently I am a
           student at Faculty of Computer Science of ,,Alexandru Ioan Cuza"
           University, Iasi. I have been part of Robotics team in highschool for
@@ -84,106 +96,127 @@
           passionate about skiing, football and investing in cryptocurrencies
           and stocks.
         </p>
-      </div>
-
-      <hr />
-      <!-- Experience -->
-      <div class="experience">
-        <h2 class="category-titles">Experience</h2>
+      </section>
+      <section class="experience-section" id="experience-section-id">
+        <h1 class="experience-title">Experience</h1>
         <ul class="experience-list">
-          <li>
-            <div>
-              <h1 class="experience-category">Student</h1>
-              <h1 class="institution-name">
-                Universitatea ,,Alexandru Ioan Cuza" din Iasi
-              </h1>
-              <h1 class="period-of-time">Sep 2022 - Present</h1>
-            </div>
+          <li class="item-list">
+            <h2 class="item-title">Student</h2>
+            <h2 class="item-institution">
+              "Alexandru Ioan-Cuza University" of Iasi
+            </h2>
+            <h2 class="item-period">Sep 2022 - Present</h2>
           </li>
-          <li>
-            <div>
-              <h1 class="experience-category">Technical Team Member</h1>
-              <h1 class="institution-name">STIM DC</h1>
-              <h1 class="period-of-time">Sep 2019 - May 2021</h1>
-            </div>
+          <li class="item-list">
+            <h2 class="item-title">Technical Team Member</h2>
+            <h2 class="item-institution">STIM DC</h2>
+            <h2 class="item-period">Sep 2019 - May 2021</h2>
           </li>
-          <li>
-            <div>
-              <h1 class="experience-category">Volunteer</h1>
-              <h1 class="institution-name">PAROHIA BUNA VESTIRE</h1>
-              <h1 class="period-of-time">Jul 2019</h1>
-            </div>
+          <li class="item-list">
+            <h2 class="item-title">Volunteer</h2>
+            <h2 class="item-institution">Parohia "Buna Vestire"</h2>
+            <h2 class="item-period">Jul 2019</h2>
           </li>
-          <li>
-            <h1 class="experience-category">Volunteer</h1>
-            <h1 class="institution-name">
-              Asociatia ,,Sf. Voievod Stefan Cel Mare"
-            </h1>
-            <h1 class="period-of-time">Aug 2019</h1>
+          <li class="item-list">
+            <h2 class="item-title">Volunteer</h2>
+            <h2 class="item-institution">
+              "Sf.Voievod Stefan Cel Mare" Asociation
+            </h2>
+            <h2 class="item-period">Aug 2019</h2>
           </li>
         </ul>
-      </div>
-      <hr />
-      <!-- Education -->
-      <div class="education">
-        <h2 class="category-titles">Education</h2>
+
+        <img
+          src="images/UAIC.jpg"
+          alt="Picture of Alexandru Ioan-Cuza"
+          class="uaic-image"
+        />
+        <h2 class="description-photo-uaic">
+          &lt;/Photo of "Alexandru Ioan-Cuza" University/&gt;
+        </h2>
+      </section>
+      <section class="education-section" id="education-section-id">
+        <h1 class="education-title">Education</h1>
         <ul class="education-list">
-          <li>
-            <div>
-              <h1 class="experience-category">
-                Universitatea ,,Alexandru Ioan Cuza" din Iasi
-              </h1>
-              <h1 class="institution-name">
-                Computer Science, Computer Science
-              </h1>
-              <h3 class="period-of-time">Sep 2022 - Sep 2025</h3>
-            </div>
+          <li class="item-list">
+            <h2 class="item-title">
+              "Alexandru Ioan - Cuza" University of Iasi
+            </h2>
+            <h2 class="item-institution">Faculty of Computer Science</h2>
+            <h2 class="item-period">Sep 2022 - Sep 2025</h2>
           </li>
-          <li>
-            <div>
-              <h1 class="experience-category">
-                ,,Dimitrie Cantemir" College, Onesti
-              </h1>
-              <h1 class="institution-name">Computer Science</h1>
-              <h1 class="period-of-time">Sep 2018 - Jun 2022</h1>
-            </div>
+          <li class="item-list">
+            <h2 class="item-title">"Dimitrie Cantemir" College, Onesti</h2>
+            <h2 class="item-institution">Computer Science</h2>
+            <h2 class="item-period">Sep 2018 - Jun 2022</h2>
           </li>
         </ul>
-      </div>
-      <hr />
-      <!-- Licenses & Certifications -->
-      <div class="licenses-certifications">
-        <h2 class="category-titles">Licenses & Certifications</h2>
-        <ul class="licenses-certifications-list">
-          <li class="cambridge-certification">
-            <h1 class="certification-name">Cambridge English - B2</h1>
-            <h1 class="institution-name">
-              Cambridge University Press & Assessment
-            </h1>
-            <h1 class="accreditation-number">
-              501/1423/2 - Accreditation Number
-            </h1>
-            <h1 class="verification-number">B7600686 - Verification NUmber</h1>
+        <img
+          src="images/dimitrie-cantemir.jpg"
+          class="dimitrie-cantemir-image"
+        />
+        <h2 class="description-dimitrie-cantemir">
+          &lt;/Photo of "Dimitrie Cantemir" College, Onesti/&gt;
+        </h2>
+      </section>
+      <section class="projects-section" id="projects-section-id">
+        <h1 class="projects-title" id="projects-title">Projects</h1>
+        <ul class="projects-list">
+          <li class="item-list">
+            <h2 class="item-title">My Personal Website</h2>
+            <h2 class="item-period">
+              <mark class="skills-subtitle">Skills: </mark>HTML - Cascading
+              Style Sheets (CSS)
+            </h2>
+            <a
+              href="https://github.com/elizadoltu/my-website"
+              target="_blank"
+              class="projects-links"
+              >https://github.com/elizadoltu/my-website</a
+            >
+          </li>
+          <li class="item-list">
+            <h2 class="item-title">Segmente</h2>
+            <h2 class="item-period">
+              <mark class="skills-subtitle">Skills: </mark>C++
+            </h2>
+            <a
+              href="https://github.com/elizadoltu/Segmente"
+              target="_blank"
+              class="projects-links"
+              class="projects-links"
+              >https://github.com/elizadoltu/Segmente</a
+            >
+          </li>
+          <li class="item-list">
+            <h2 class="item-title">
+              Tutorials for Lego Mindstorms - Robot Inventor
+            </h2>
+            <h2 class="item-period">
+              <mark class="skills-subtitle">Skills: </mark>Lego Mindstorms -
+              Python
+            </h2>
+            <a
+              href="https://github.com/elizadoltu/Lego-Mindstorms-Tutorials"
+              target="_blank"
+              class="projects-links"
+              >https://github.com/elizadoltu/Lego-Mindstorms-Tutorials</a
+            >
           </li>
         </ul>
-      </div>
-      <hr />
-      <!-- Skills -->
-      <div class="skills">
-        <h2 class="category-titles">Skills</h2>
-        <ul class="skills-list">
-          <li>Micro::Bit</li>
-          <li>Lego Mindstorms</li>
-          <li>Microsoft PowerPoint</li>
-          <li>Object-Oriented Programming (OOP)</li>
-          <li>Communication</li>
-          <li>Teamwork</li>
-          <li>Unity</li>
-          <li>C#</li>
-          <li>Programming</li>
-          <li>Game Development</li>
-        </ul>
-      </div>
-    </div>
-  </body>
+      </section>
+      <section class="licences-section"></section>
+      <section class="skills-section"></section>
+      <button
+        id="top-button"
+        onclick="topFunction()"
+        class="top-button"
+        title="Go to top"
+      >
+        &and;
+      </button>
+      <script src="Scripts/buttons-scripts.js"></script>
+      <script src="Scripts/scroll-functions.js"></script>
+    </body>
+  </main>
 </html>

@@ -1,0 +1,70 @@
+
+.navigation-bar {
+    display: inline-block;
+}
+
+.navigation-list {
+    list-style-type: none;
+    font-size: 10px;
+}
+
+.navigation-bar-item {
+    margin-left: 60px;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+}
+
+.navigation-bar-item-summary {
+    margin-left: 35px;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    transition: font-weight 0.1s
+    font-size 0.1s;
+    font-size: 10px;
+    width: 60px;
+}
+
+
+.navigation-bar-item-summary:hover {
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.navigation-bar-item-experience {
+    margin-left: 35px;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    transition: font-weight 0.1s font-size 0.1s;
+    font-size: 10px;
+    width: 60px;
+}
+
+.navigation-bar-item-experience:hover {
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.navigation-bar-item-education {
+    margin-left: 35px;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    transition: font-weight 0.1s font-size 0.1s;
+    font-size: 10px;
+    width: 60px;
+}
+
+.navigation-bar-item-education:hover {
+    font-weight: 600;
+    font-size: 11px;
+}

@@ -1,0 +1,29 @@
+.education-section {
+    text-align: left;
+    margin-top: 400px;
+}
+
+.education-title {
+    margin-left: 100px;
+}
+
+.education-list {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.dimitrie-cantemir-image {
+    float: right;
+    width: 400px;
+    object-fit: cover;
+    margin-top: -200px;
+    margin-right: 20px;
+}
+
+.description-dimitrie-cantemir {
+    font-size: 10px;
+    text-align: right;
+    margin-right: 90px;
+}
+

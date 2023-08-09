@@ -1,0 +1,70 @@
+.main-content-website {
+    font-family: monospace, sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* For small screens */
+@media screen and (max-width: 768px) {
+
+    .navigation-bar,
+    .navigation-bar-item-summary,
+    .navigation-bar-item-experience,
+    .navigation-bar-item-education,
+    .navigation-bar-item-projects,
+    .navigation-bar-item,
+    .introduction-section,
+    .summary-section,
+    .summary-title,
+    .aside-picture,
+    .profile-picture,
+    .experience-section,
+    .experience-title,
+    .navigation-list li a,
+    .introduction-title,
+    .about-me-description,
+    .item-title,
+    .item-institution,
+    .item-period,
+    .skills-subtitle,
+    .projects-links,
+    .top-button {
+        font-size: 2.5vw;
+    }
+}
+
+/* For larger screens */
+@media screen and (min-width: 1200px) {
+    .navigation-bar,
+    .navigation-bar-item-summary,
+    .navigation-bar-item-experience,
+    .navigation-bar-item-education,
+    .navigation-bar-item-projects,
+    .navigation-bar-item,
+    .introduction-section,
+    .summary-section,
+    .ummary-title,
+    .aside-picture,
+    .profile-picture,
+    .experience-section,
+    .experience-title,
+    .navigation-list li a,
+    .introduction-title,
+    .about-me-description,
+    .item-title,
+    .item-institution,
+    .item-period,
+    .skills-subtitle,
+    .projects-links,
+    .top-button {
+        font-size: 1.25vw;
+    }
+}

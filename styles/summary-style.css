@@ -1,0 +1,26 @@
+.aside-picture {
+    width: 40%;
+    float: right;
+    margin-left: 100px;
+    margin-top: -80px;
+}
+
+.profile-picture {
+    width: 250px;
+}
+
+.summary-section {
+    margin-top: 90px;
+}
+
+.summary-title {
+    margin-left: 190px;
+}
+
+.about-me-description {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
