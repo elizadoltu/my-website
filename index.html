@@ -66,8 +66,20 @@
               >Projects</a
             >
           </li>
-          <li class="navigation-bar-item">Certificates</li>
-          <li class="navigation-bar-item">Skills</li>
+          <li class="navigation-bar-item-certificates">
+            <a
+              href="#certificates-section-id"
+              onclick="scrollToSection('certificates-section-id')"
+              >Certificates</a
+            >
+          </li>
+          <li class="navigation-bar-item-skills">
+            <a
+              href="#skills-section-id"
+              onclick="scrollToSection('skills-section-id')"
+              >Skills</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -84,6 +96,9 @@
             alt="Profile picture"
             class="profile-picture"
           />
+          <h2 class="profile-picture-description">
+            &lt;/Photo of Eliza-Teodora Doltu./&gt;
+          </h2>
         </aside>
         <p class="about-me-description">
           Hello everyone! My name is Eliza - Teodora Doltu and currently I am a
@@ -184,7 +199,6 @@
               href="https://github.com/elizadoltu/Segmente"
               target="_blank"
               class="projects-links"
-              class="projects-links"
               >https://github.com/elizadoltu/Segmente</a
             >
           </li>
@@ -203,10 +217,78 @@
               >https://github.com/elizadoltu/Lego-Mindstorms-Tutorials</a
             >
           </li>
+          <li class="item-list">
+            <h2 class="item-title">
+              The History of The Universe - PPT Presentation
+            </h2>
+            <h2 class="item-period">
+              <mark class="skills-subtitle"> Skills: </mark> PowerPoint skills
+            </h2>
+            <a
+              href="presentations/final-presentation.pptx"
+              download="final-presentation.pptx"
+              class="projects-links"
+              >The History of The Universe</a
+            >
+          </li>
         </ul>
+        <img
+          src="images/lego-mindstorms.jpg"
+          alt="Photo of lego-mindstorms. Link: https://www.google.com/url?sa=i&url=https%3A%2F%2Fthegadgetflow.com%2Fportfolio%2Flego-mindstorms-robot-inventor%2F&psig=AOvVaw3XMhcnYdyJqcL8LLxAK7WO&ust=1691658731269000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKiTioCez4ADFQAAAAAdAAAAABAo. 
+          For copyright purpose."
+          class="lego-mindstorms-image"
+        />
+        <h2 class="lego-mindstorms-description">
+          &lt;/Photo of Lego Mindstorms - Robot Inventor./&gt;
+        </h2>
       </section>
-      <section class="licences-section"></section>
-      <section class="skills-section"></section>
+      <section class="certificates-section" id="certificates-section-id">
+        <h1 class="certificates-title" id="certificates-title">Certificates</h1>
+        <ul class="certificates-list">
+          <li class="item-list">
+            <h2 class="item-title">Cambridge English - B2</h2>
+            <h2 class="item-period">Cambridge University Press & Assessment</h2>
+            <h2 class="item-period">Issued: Apr 2022</h2>
+            <h2 class="item-period">Credential ID:</h2>
+            <h2 class="item-period">501/1423/2 - Accreditation Number</h2>
+            <h2 class="item-period">B7600686 - Verification Number</h2>
+          </li>
+        </ul>
+        <img
+          src="images/university-of-cambridge-logo.png"
+          alt="Photo of University of Cambridge.
+          Link: https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrandslogos.com%2Fu%2Funiversity-of-cambridge-logo-1%2F&psig=AOvVaw3jUTvRQobOCaGQYe88CaPf&ust=1691666785777000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOC0xoC8z4ADFQAAAAAdAAAAABAR. 
+          For copyright purpose."
+          class="university-of-cambridge-photo"
+        />
+        <h2 class="description-image-cambridge">
+          &lt;/Photo of University of Cambridge./&gt;
+        </h2>
+      </section>
+      <section class="skills-section" id="skills-section-id">
+        <h1 class="skills-title">Skills</h1>
+        <ul class="skills-list">
+          <li class="item-period-skills">HTML</li>
+          <li class="item-period-skills">CSS</li>
+          <li class="item-period-skills">Python</li>
+          <li class="item-period-skills">C++</li>
+          <li class="item-period-skills">Microsoft PowerPoint</li>
+          <li class="item-period-skills">Object-Oriented Programming(OOP)</li>
+          <li class="item-period-skills">English</li>
+          <li class="item-period-skills">Communication</li>
+          <li class="item-period-skills">Team Work</li>
+          <li class="item-period-skills">Leadership</li>
+        </ul>
+        <img
+          src="images/powerpoint_2013_logo.png"
+          alt="Photo of PowerPoint Logo. Link: https://www.google.com/url?sa=i&url=https%3A%2F%2Fsc.edu%2Fabout%2Foffices_and_divisions%2Fcte%2Fteaching_resources%2Ftechnology%2Fdesigning_delivering_powerpoint_presentations%2Findex.php&psig=AOvVaw1hu_vJXl6_B2XtVONIg6Ut&ust=1691672948764000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCID6oPvSz4ADFQAAAAAdAAAAABAJ.
+          For copyright purpose."
+          class="powerpoint-logo-image"
+        />
+        <h2 class="powerpoint-description">
+          &lt;/Photo of PowerPoint Logo./&gt;
+        </h2>
+      </section>
       <button
         id="top-button"
         onclick="topFunction()"
@@ -218,5 +300,96 @@
       <script src="Scripts/buttons-scripts.js"></script>
       <script src="Scripts/scroll-functions.js"></script>
     </body>
+
+    <footer class="footer">
+      <section class="footer-content">
+        <p class="footer-text">
+          &copy; 2023 Eliza-Teodora Doltu. All rights reserved.
+        </p>
+        <ul class="social-media-list left-list">
+          <li>
+            <a href="https://facebook.com/dteodora.eliza" target="_blank"
+              ><img
+                src="images/Facebook-logo.png"
+                alt="Photo of Facebook Logo."
+                class="facebook-logo"
+              />Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://instagram.com/elizateodoradoltu" target="_blank"
+              ><img
+                src="images/instagram-logo.png"
+                alt="Photo of Instagram Logo"
+                class="instagram-logo"
+              />Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              href="images/snapcode.png"
+              download="snapcode.png"
+              target="_blank"
+              ><img
+                src="images/snapchat-logo.png"
+                alt="Photo of Snapchat Logo"
+                class="snapchat-logo"
+              />Snapchat</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/eliza-teodora-doltu-56336b24a/"
+              target="_blank"
+              ><img
+                src="images/LinkedIn-logo.png"
+                alt="Photo of LinkedIn Logo"
+                class="LinkedIn-logo"
+              />LinkedIn</a
+            >
+          </li>
+          <!-- Add more links here for the left list -->
+        </ul>
+        <ul class="social-media-list right-list">
+          <li>
+            <a href="mailto:elizadoltuofficial@gmail.com"
+              ><img
+                src="images/email-logo.png"
+                alt="Photo of Email Logo"
+                class="email-logo"
+              />Personal Email</a
+            >
+          </li>
+          <li>
+            <a href="mailto:everythingwithunknowninfo@gmail.com"
+              ><img
+                src="images/email-logo.png"
+                alt="Photo of Email Logo"
+                class="email-logo"
+              />Business Email</a
+            >
+          </li>
+          <li>
+            <a href="tel:+40792179657"
+              ><img
+                src="images/whatsapp-logo.png"
+                alt="Photo of WhatsApp Logo"
+                class="whatsapp-logo"
+              />Business Telephone Number</a
+            >
+          </li>
+          <li>
+            <a href="https://discordapp.com/users/694414601261154315"
+              ><img
+                src="images/discord-icon.png"
+                alt="Photo of Dsicord Logo"
+                class="discord-logo"
+              />Discord</a
+            >
+          </li>
+          <!-- Add more links here for the right list -->
+        </ul>
+      </section>
+    </footer>
   </main>
 </html>

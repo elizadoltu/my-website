@@ -4,13 +4,13 @@
 }
 
 .projects-title {
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 .projects-list {
     list-style-type: none;
     text-align: right;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 .skills-subtitle {
@@ -48,4 +48,20 @@
 .navigation-bar-item-projects:hover {
     font-weight: 600;
     font-size: 11px;
+}
+
+.lego-mindstorms-image {
+    float: left;
+    width: 380px;
+    margin-top: -320px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.lego-mindstorms-description {
+    margin-top: -95px;
+    margin-left: 78px;
+    text-align: left;
+    font-size: 10px;
+    color: black;
 }

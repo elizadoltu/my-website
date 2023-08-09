@@ -1,0 +1,52 @@
+.skills-section {
+    text-align: right;
+    margin-top: 400px;
+}
+
+.skills-title {
+    margin-right: 150px;
+}
+
+.skills-list {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 150px;
+}
+
+.item-period-skills {
+    font-size: 10px;
+    font-weight: 50;
+}
+
+.powerpoint-logo-image {
+    float: left;
+    width: 300px;
+    margin-top: -140px;
+    margin-left: 60px;
+    object-fit: cover;
+}
+
+.powerpoint-description {
+    margin-top: -20px;
+    margin-left: 130px;
+    text-align: left;
+    font-size: 10px;
+    color: black;
+}
+
+.navigation-bar-item-skills {
+    margin-left: 35px;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    transition: font-weight 0.1s font-size 0.1s;
+    font-size: 10px;
+    width: 60px;
+}
+
+.navigation-bar-item-skills:hover {
+    font-weight: 600;
+    font-size: 11px;
+}
